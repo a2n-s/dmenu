@@ -16,6 +16,7 @@ Patches have been patched with `patch -p1 < <path to patch from root of repo>`.
 - [x]  morecolor [here](http://tools.suckless.org/dmenu/patches/morecolor/)
 - [x]  mouse-support [here](http://tools.suckless.org/dmenu/patches/mouse-support/)
 - [x]  numbers [here](http://tools.suckless.org/dmenu/patches/numbers/)
+- [x]  xyw [here](http://tools.suckless.org/dmenu/patches/xyw/)
 - [ ]  highlight [here](http://tools.suckless.org/dmenu/patches/highlight/)
 - [ ]  preselect [here](http://tools.suckless.org/dmenu/patches/preselect/)
 - [ ]  restrict-return [here](http://tools.suckless.org/dmenu/patches/restrict-return/)
