@@ -14,15 +14,16 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 /*
  * SELECT YOUR COLOR SCHEME
  */
-//#include "colors/doom-one.h"
-//#include "colors/dracula.h"
-//#include "colors/gruvbox-dark.h"
-//#include "colors/monokai-pro.h"
-#include "colors/nord.h"
-//#include "colors/oceanic-next.h"
-//#include "colors/solarized-dark.h"
-//#include "colors/solarized-light.h"
-//#include "colors/tomorrow-night.h"
+#include "colors/gruvbox-dark.h"
+
+/* #include "colors/doom-one.h" */
+/* #include "colors/dracula.h" */
+/* #include "colors/monokai-pro.h" */
+/* #include "colors/nord.h" */
+/* #include "colors/oceanic-next.h" */
+/* #include "colors/solarized-dark.h" */
+/* #include "colors/solarized-light.h" */
+/* #include "colors/tomorrow-night.h" */
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
