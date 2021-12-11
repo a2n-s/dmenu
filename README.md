@@ -12,7 +12,7 @@ In order to build dmenu you need the Xlib header files.
 Edit config.mk to match your local setup (dmenu is installed into
 the /usr/local namespace by default).
 
-Edit the [`config.h`] file which should be a duplicate of [`config.def.h`] at the beginning.
+Edit the `config.h` file which should be a duplicate of [`config.def.h`] at the beginning.
 
 ### 2.2. Patching.
 One can add patches to one's build of `dmenu`. I created a [`patches`] directory with all the patches I use.
@@ -46,5 +46,4 @@ If you want to use this patched version of `dmenu`, you can fork the repo, clone
     git fetch upstream main
     git fetch source master
 
-[`config.h`]:     config.h
 [`config.def.h`]: config.def.h
