@@ -1,9 +1,9 @@
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm]           = { "#eee8d5", "#002b36" },
-	[SchemeSel]            = { "#ffffff", "#d33682" },
-	[SchemeSelHighlight]   = { "#2aa198", "#000000" },
-	[SchemeNormHighlight]  = { "#2aa198", "#000000" },
+	[SchemeSel]            = { "#ffffff", "#d33682" },  // only selected item.
+	[SchemeMid]            = { "#eee8d5", "#000000" },  // side selections
+	[SchemeNorm]           = { "#eee8d5", "#002b36" },  // general
+	[SchemeSelHighlight]   = { "#2aa198", "#000000" },  // filtered characters selection
+	[SchemeNormHighlight]  = { "#2aa198", "#000000" },  // filtered characters others
 	[SchemeOut]            = { "#ffffff", "#268bd2" },
-	[SchemeMid]            = { "#eee8d5", "#000000" },
 };
