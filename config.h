@@ -11,19 +11,17 @@ static const char *fonts[] = {
 	"monospace:size=10"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
-/*
- * SELECT YOUR COLOR SCHEME
- */
-// #include "colors/gruvbox-dark.h"
 
-// #include "colors/doom-one.h"
-// #include "colors/dracula.h"
-#include "colors/monokai-pro.h"
-// #include "colors/nord.h"
-// #include "colors/oceanic-next.h"
-// #include "colors/solarized-dark.h"
-// #include "colors/solarized-light.h"
-// #include "colors/tomorrow-night.h"
+// THEME: Cobalt_Neon
+static const char *colors[SchemeLast][2] = {
+	                         /*    fg         bg   */
+	[SchemeSel]            = { "#142630", "#781aa0" },  // only selected item.
+	[SchemeMid]            = { "#8ff586", "#142838" },  // side selections
+	[SchemeNorm]           = { "#8ff586", "#142838" },  // general
+	[SchemeSelHighlight]   = { "#3aa5ff", "#142630" },  // filtered characters selection
+	[SchemeNormHighlight]  = { "#3aa5ff", "#142630" },  // filtered characters others
+	[SchemeOut]            = { "#142630", "#8ff586" },
+};
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
